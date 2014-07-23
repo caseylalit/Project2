@@ -1,0 +1,18 @@
+
+.menu-bar-wrapper ul li{float:left;margin-right:9px;}
+.menu-bar-wrapper ul{list-style-type:none;margin:0px;padding:0px;overflow:hidden;}
+
+.menu-bar-wrapper a:link,.menu-bar-wrapper a:visited{
+	color:white;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	padding-top:18px;
+	padding-bottom:18px;
+	font-size:14px;
+	padding-left:51px;
+	padding-right:51px;
+	
+	}
+	
+.menu-bar-wrapper a:hover,.menu-bar-wrapper a:active{background:#96b285}
