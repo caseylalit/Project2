@@ -1,18 +1,31 @@
 
 .menu-bar-wrapper ul li{float:left;margin-right:9px;}
-.menu-bar-wrapper ul{list-style-type:none;margin:0px;padding:0px;overflow:hidden;}
+.menu-bar-wrapper ul{list-style-type:none;margin:0px;padding:0px;overflow:hidden;font-family:Arial, Helvetica, sans-serif;}
 
 .menu-bar-wrapper a:link,.menu-bar-wrapper a:visited{
 	color:white;
 	display:block;
 	text-align:center;
 	text-decoration:none;
-	padding-top:18px;
-	padding-bottom:18px;
-	font-size:14px;
+	padding-top:18px;padding-bottom:18px;
+	font-size:13px;
 	padding-left:51px;
 	padding-right:51px;
 	
 	}
 	
-.menu-bar-wrapper a:hover,.menu-bar-wrapper a:active{background:#96b285}
+.menu-bar-wrapper a:hover,.menu-bar-wrapper a:active{background:#96b285;}
+ 
+.body-final-middle-wrapper img:hover{opacity:0.7;}
+
+
+.footer-inside-top-right-wrapper ul{padding:0px;list-style-type:none;}
+
+.footer-inside-top-right-wrapper ul li img{margin-right:8px;}
+
+.footer-inside-top-right-wrapper a{text-decoration:none;color:#a4a8a1;}
+
+.footer-inside-top-right-wrapper a:hover{
+	 color:#356618;
+	background:url(../Images/icoon.png)  left no-repeat;
+	}
