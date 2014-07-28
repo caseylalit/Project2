@@ -11,12 +11,13 @@
 	font-size:13px;
 	padding-left:51px;
 	padding-right:51px;
-	
 	}
 	
 .menu-bar-wrapper a:hover,.menu-bar-wrapper a:active{background:#96b285;}
- 
-.body-final-middle-wrapper img:hover{opacity:0.7;}
+
+.body-mid-div img:hover{opacity:0.3;} 
+
+
 
 
 .footer-inside-top-right-wrapper ul{padding:0px;list-style-type:none;}

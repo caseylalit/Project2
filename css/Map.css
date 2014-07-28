@@ -1,5 +1,5 @@
 
-.map-wrapper{width:671px;border: 2px solid black;position:relative;}
+.map-wrapper{width:665px;border: 5px solid white;position:relative;}
 #map-div {height:234px;margin:0px auto;padding:0px;}
 .search-div{width:214px;top:190px;left:231px;position:absolute;}
 .search-div form input{width:105px;text-align:center;}

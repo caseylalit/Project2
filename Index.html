@@ -98,7 +98,13 @@
 					<div class="body-final-middle-wrapper">
                     	<div class="final-middle-left-wrapper">
                         	<div class="middle-left-top-wrapper">
-                            <img src="Images/pic4.png" />
+                            <img id="thumbnail-1" onclick="thumbNails1()" src="Images/pic4.png" />
+                            	<ul class="pics1">
+                                	<li><img src="Images/pic5.png" /></li>
+                                	<li><img src="Images/pic6.png" /></li>
+                                	<li><img src="Images/pic7.png" /></li>
+                                    <li><img src="Images/pic4.png" /></li>
+                                </ul>
                             </div>
                             <div class="middle-left-bottom-wrapper">
                             	<h3 class="heading2">JULIET'S GARDEN</h3>
@@ -107,7 +113,14 @@
                         </div>
                         <div class="final-middle-mid1-wrapper">
                         	<div class="middle-mid1-top-wrapper">
-                            <img src="Images/pic5.png" />
+                            <img id="thumbnail-2" onclick="thumbNails2()"  src="Images/pic5.png" />
+                            	<ul class="pics2">
+                            		<li><img src="Images/pic6.png" /></li>
+                                    <li><img src="Images/pic7.png" /></li>
+                                    <li><img src="Images/pic4.png" /></li>
+                                    <li><img src="Images/pic5.png" /></li>
+                                  </ul>
+                                    
                             </div>
                             <div class="middle-mid1-bottom-wrapper">
                             	<h3 class="heading2">JOANNE'S GARDEN</h3>
@@ -116,7 +129,13 @@
                         </div>
                         <div class="final-middle-mid2-wrapper">
                         	<div class="middle-mid2-top-wrapper">
-                            <img src="Images/pic6.png" />
+                            <img id="thumbnail-3" onclick="thumbNails3()" src="Images/pic6.png" />
+                            	<ul class="pics3">
+                                	<li><img src="Images/pic4.png" /></li>
+                                    <li><img src="Images/pic5.png" /></li>
+                                    <li><img src="Images/pic7.png" /></li>
+                                    <li><img src="Images/pic6.png" /></li>
+                                    </ul>
                             </div>
                             <div class="middle-mid2-bottom-wrapper">
                             	<h3 class="heading2">JETTKA'S GARDEN</h3>
@@ -125,7 +144,13 @@
                         </div>
                         <div class="final-middle-right-wrapper">
                         	<div class="middle-right-top-wrapper">
-                            <img src="Images/pic7.png" />
+                             <img id="thumbnail-4" onclick="thumbNails4()" src="Images/pic7.png" />
+                            	<ul class="pics4">
+                                	<li><img src="Images/pic5.png" /></li>
+                                    <li><img src="Images/pic4.png" /></li>
+                                    <li><img src="Images/pic6.png" /></li>
+                                    <li><img src="Images/pic7.png" /></li>
+                                    </ul>
                             </div>
                             <div class="middle-right-bottom-wrapper">
                             	<h3 class="heading2">JIA'S GARDEN</h3>
@@ -142,19 +167,16 @@
                         	<div class="bottom-right-top-wrapper">TIPS OF THE WEEK
                             </div>
                             <div class="bottom-right-bottom-wrapper">
-                   				 <ol>
-                      				<li>Aenean nulla purus nullam dapibus erat lobortis est molestie consectetur adipiscing elit.</li></br>
-                      				<li>Etiam sed auctor turpis.Maecenas orci purus , ultrices eget rhoncus in, vestibulum a justo.Nunc in risus erat.</li></br>
-                     				<li>Duis pellentesque consequat tincidunt. Nam elementum interdum gravida. Morbi risus velit molestie.</li></br>
-                  				</ol>
+                   			 <ol>
+                      			<li>Aenean nulla purus nullam dapibus erat lobortis est molestie consectetur adipiscing elit.</li></br>
+                      			<li>Etiam sed auctor turpis.Maecenas orci purus , ultrices eget rhoncus in, vestibulum a justo.Nunc in risus erat.</li></br>
+                     			<li>Duis pellentesque consequat tincidunt. Nam elementum interdum gravida. Morbi risus velit molestie.</li></br>
+                  			</ol>
                             </div>
                         </div>
 					</div>
-                </div>
-                
-            
-            </div>
-    
+                </div>           
+            </div>    
     	</div>
 		<div class="footer-div">
 			<div class="footer-inside-top-wrapper">
@@ -162,8 +184,7 @@
                 		<div class="map-wrapper">
 							<div id="map-div">						
 							</div>
-								<div class="search-div">
-            
+								<div class="search-div">            
             								<form id="form" name="frm" >
                 							<div class="input-text-wrapper">
                 								<input type="text" value="Enter the location"id="address" />
@@ -172,15 +193,9 @@
                    							 <input type="button" value="Search" onclick="calcRoute()"/>
                    							 </div>
               								</form>
-            
-           							 </div>
-           					
-									 </div>
-									 
-							
-								</div>            
-               	 
-				 
+                                            </div>           					
+									 </div>							
+								</div>     				 
                 <div class="footer-inside-top-right-wrapper">
                 	<h3 class="heading3">CONNECT</h3>
                    <ul class="paragraph3">
@@ -205,12 +220,13 @@
                 </div>
             </div>
             <div class="footer-inside-bottom-wrapper">FLOWERS in GARDEN&copy 2023 | All Rights Reserved
-            </div>
-				
+            </div>				
 		</div>
-<script type="text/javascript" src="Index.js">
+<script type="text/javascript" src="Banner.js">
 </script>    
 <script type="text/javascript" src="Map.js">
 </script>    
+<script type="text/javascript" src="Thumbnails.js">
+</script>
 </body>
 </html>
