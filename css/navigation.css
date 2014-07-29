@@ -52,5 +52,8 @@
 
 
 
+.right-slider  #one{display:inline;}
+.right-slider  #two{display:none;}
 	
-	
+.right-slider:hover #one {display:none;}
+.right-slider:hover  #two{display:inline;}	
