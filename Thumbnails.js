@@ -21,8 +21,6 @@ function thumbNails1(){
 		
 	}
 	
-	
-	
 var a3=document.getElementById('thumbnail-2');
 var d3=document.getElementsByClassName("pics2")[0];
 var e3=d3.getElementsByTagName("img");
@@ -44,8 +42,7 @@ function thumbNails2(){
 	},3000);
 		
 	}
-	
-	
+		
 var a4=document.getElementById('thumbnail-3');
 var d4=document.getElementsByClassName("pics3")[0];
 var e4=d4.getElementsByTagName("img");
@@ -67,9 +64,7 @@ function thumbNails3(){
 	},3000);
 		
 	}
-	
-	
-	
+		
 var a5=document.getElementById('thumbnail-4');
 var d5=document.getElementsByClassName("pics4")[0];
 var e5=d5.getElementsByTagName("img");

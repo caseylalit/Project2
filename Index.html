@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="css/navigation.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/Map.css" />
-<script src="https://maps.googleapis.com/maps/api/js?AIzaSyARz2aTtvH0T65-6EI0-v0vri2AIULt2v4"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?AIzaSyARz2aTtvH0T65-6EI0-v0vri2AIULt2v4"></script>
 </head>
 <body>
 	
@@ -16,12 +16,15 @@
     	<div class="header-div-wrapper">
         	<div class="header-inside-wrapper">
         		<div class="inside-left-wrapper">
-                	<div class="inside-top-wrapper">FLOWERS in GARDEN
+                	<div class="inside-top-wrapper">
+                    <a href="#">FLOWERS in GARDEN</a>
                     </div>
-                    <div class="inside-bottom-wrapper">Gardening Community
+                    <div class="inside-bottom-wrapper">
+                    <a href="#">Gardening Community</a>
                     </div>
               	</div>
-            	<div class="inside-right-wrapper"><img src="Images/logo.png" />
+            	<div class="inside-right-wrapper">
+                <a href="#"><img src="Images/logo.png" /></a>
             	</div>
         	</div>
             	<div class="menu-bar-wrapper">
@@ -51,7 +54,14 @@
                     
                  </ul>
                 	<div class="content-banner-div">
-                	<img src="Images/content-banner.png" />
+                	<img id="images" src="Images/content-banner.png" />
+                    	<ul class="picss">
+                        	<li><img src="Images/tips3.png" /></li>
+                        	<li><img src="Images/tips1.png" /></li>
+                            <li><img src="Images/content-banner.png" /></li>
+                            <li><img src="Images/tips2.png" /></li>                            
+                            
+                       </ul>           
                 	</div>
                     <div class="right-slider" id="right">
                     	<img id="one" src="Images/right.png"/>
@@ -60,6 +70,7 @@
                     </div>
                 </div>
                 <div class="body-mid-div">
+                	
                 	<div class="mid-left-wrapper">
                     	<div class="mid-left-left-wrapper">
                         	<img src="Images/pic1.png" />
@@ -94,14 +105,16 @@
                         </div>
                     	
                     </div>
+					
                 </div>
 				<div class="body-final-div">
-                	<div class="body-final-top-wrapper">FEATURED GARDENS
+                	<div class="body-final-top-wrapper">
+                    <a href="#">FEATURED GARDENS</a>
                     </div>
 					<div class="body-final-middle-wrapper">
                     	<div class="final-middle-left-wrapper">
                         	<div class="middle-left-top-wrapper">
-                            <img id="thumbnail-1" onclick="thumbNails1()" src="Images/pic4.png" />
+                            <a href="#"><img id="thumbnail-1" onmouseover="thumbNails1()" src="Images/pic4.png" /></a>
                             	<ul class="pics1">
                                 	<li><img src="Images/pic5.png" /></li>
                                 	<li><img src="Images/pic6.png" /></li>
@@ -116,7 +129,7 @@
                         </div>
                         <div class="final-middle-mid1-wrapper">
                         	<div class="middle-mid1-top-wrapper">
-                            <img id="thumbnail-2" onclick="thumbNails2()"  src="Images/pic5.png" />
+                            <a href="#"><img id="thumbnail-2" onclick="thumbNails2()"  src="Images/pic5.png" /></a>
                             	<ul class="pics2">
                             		<li><img src="Images/pic6.png" /></li>
                                     <li><img src="Images/pic7.png" /></li>
@@ -132,7 +145,7 @@
                         </div>
                         <div class="final-middle-mid2-wrapper">
                         	<div class="middle-mid2-top-wrapper">
-                            <img id="thumbnail-3" onclick="thumbNails3()" src="Images/pic6.png" />
+                            <a href="#"><img id="thumbnail-3" onclick="thumbNails3()" src="Images/pic6.png" /></a>
                             	<ul class="pics3">
                                 	<li><img src="Images/pic4.png" /></li>
                                     <li><img src="Images/pic5.png" /></li>
@@ -147,7 +160,7 @@
                         </div>
                         <div class="final-middle-right-wrapper">
                         	<div class="middle-right-top-wrapper">
-                             <img id="thumbnail-4" onclick="thumbNails4()" src="Images/pic7.png" />
+                             <a href="#"><img id="thumbnail-4" onclick="thumbNails4()" src="Images/pic7.png" /></a>
                             	<ul class="pics4">
                                 	<li><img src="Images/pic5.png" /></li>
                                     <li><img src="Images/pic4.png" /></li>
@@ -167,7 +180,8 @@
                         <img src="Images/pic8.png" />
                         </div>
                         <div class="final-bottom-right-wrapper">
-                        	<div class="bottom-right-top-wrapper">TIPS OF THE WEEK
+                        	<div class="bottom-right-top-wrapper">
+                            <a href="#">TIPS OF THE WEEK</a>
                             </div>
                             <div class="bottom-right-bottom-wrapper">
                    			 <ol>
@@ -196,7 +210,10 @@
                    							 <input type="button" value="Search" onclick="calcRoute()"/>
                    							 </div>
               								</form>
-                                            </div>           					
+                                </div>   
+								<div class="new-map">
+									<input type="button" value="WeatherMap" onclick="newMap()" />
+								</div>
 									 </div>							
 								</div>     				 
                 <div class="footer-inside-top-right-wrapper">
@@ -218,7 +235,7 @@
                 <li><a href="https://plus.google.com/u/0/101228029896738185359" target="_blank">
                 <img id="seventh" src="Images/gg.png" />
                 <img id="eighth" src="Images/ggg.png" />
-                Google+</a></li><br />
+                Google+</a></li>
                    </ul>
                 </div>
             </div>

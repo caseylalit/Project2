@@ -6,19 +6,22 @@
 .paragraph1{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:white;}
 
 .body-final-top-wrapper{font-family:lucia "Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:18px;color:#767752;}
+.body-final-top-wrapper a{text-decoration:none;color:#767752;}
 
-.heading2{font-family:Arial, Helvetica, sans-serif;font-size:16px;margin-top:24px;margin-bottom:18px;color:#366618;}
+.heading2{font-family:Arial, Helvetica, sans-serif;font-size:16px;margin-top:24px;margin-bottom:18px;color:#366618;font-weight:lighter;}
 .paragraph2{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#4b4b4b;}
 
 .bottom-right-top-wrapper{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size:18px;color:#767752;}
+.bottom-right-top-wrapper a{text-decoration:none;color:#767752;}
 .bottom-right-bottom-wrapper{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#4b4b4b;}
-
+.bottom-right-bottom-wrapper ol {padding-left:22px;}
 .footer-inside-bottom-wrapper{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:white;font-weight:normal;}
 
 .heading3{font-family:Arial, Helvetica, sans-serif;font-size:18px;margin-bottom:18px;color:#366618;font-weight:lighter;}
 .paragraph3{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#a4a8a1;}
 
 .body-first-div ul{display:none;}
+.content-banner-div ul{display:none;}
 .middle-left-top-wrapper ul{display:none;}
 .middle-mid1-top-wrapper ul{display:none;}
 .middle-mid2-top-wrapper ul{display:none;}

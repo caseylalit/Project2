@@ -32,4 +32,17 @@ function calcRoute() {
   });
 }
 
+
+
+
+
 google.maps.event.addDomListener(window, 'load', initialize);
+
+
+function newMap (){
+	window.open("file:///C:/Users/User/Desktop/Project/Project2/GoogleWeather.html","_blank");
+	}
+
+
+
+
