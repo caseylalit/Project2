@@ -11,249 +11,200 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?AIzaSyARz2aTtvH0T65-6EI0-v0vri2AIULt2v4"></script>
 </head>
 <body>
-	
-		<div class="main-div-wrapper">
-    	<div class="header-div-wrapper">
-        	<div class="header-inside-wrapper">
-        		<div class="inside-left-wrapper">
-                	<div class="inside-top-wrapper">
-                    <a href="#">FLOWERS in GARDEN</a>
-                    </div>
-                    <div class="inside-bottom-wrapper">
-                    <a href="#">Gardening Community</a>
-                    </div>
-              	</div>
-            	<div class="inside-right-wrapper">
-                <a href="#"><img src="Images/logo.png" alt="logo" /></a>
-            	</div>
-                
-        	</div>
-            <div class="weather-div">WEATHER            
-            </div>            
-            <div id="weatherDiv" class="weather-wrapper-div">
-			<input id="searchCity" name="search_str" value="kathmandu" />
-            <button id='btn' type="submit" onclick="openWeatherApp()">Search</button>
-            </div>
-            <div id="weatherResult" class="weather-result-wrapper">            
-            </div>
-            	<div class="menu-bar-wrapper">
-                	<ul>
-                    	<li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Plants</a></li>
-                        <li><a href="#">Gardens</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Contact</a></li>
-                   </ul>
-                </div>
+<div class="main-div-wrapper">
+  <div class="header-div-wrapper">
+    <div class="header-inside-wrapper">
+      <div class="inside-left-wrapper">
+        <div class="inside-top-wrapper"> <a href="#">FLOWERS in GARDEN</a> </div>
+        <div class="inside-bottom-wrapper"> <a href="#">Gardening Community</a> </div>
+      </div>
+      <div class="inside-right-wrapper"> <a href="#"><img src="Images/logo.png" alt="logo" /></a> </div>
+    </div>
+    <div class="weather-div">WEATHER </div>
+    <div id="weatherDiv" class="weather-wrapper-div">
+      <input id="searchCity" name="search_str" value="kathmandu" />
+      <button id='btn' type="submit" onclick="openWeatherApp()">Search</button>
+    </div>
+    <div id="weatherResult" class="weather-result-wrapper"> </div>
+    <div class="menu-bar-wrapper">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Plants</a></li>
+        <li><a href="#">Gardens</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="body-div-wrapper">
+    <div class="body-first-div"> <img id="image" src="Images/banner.png"  alt="image-banner"/>
+      <ul class="pics">
+        <li><img src="Images/bb.png" alt="bb" /></li>
+        <li><img src="Images/aa.png" alt="aa" /></li>
+        <li><img src="Images/thered.png" alt="thered" /></li>
+        <li><img src="Images/ddd.png" alt="ddd"/></li>
+        <li><img src="Images/Untitled-1.png" alt="untitled-1"/></li>
+        <li><img src="Images/Untitled-2.png" alt="untitled-2"/></li>
+        <li><img src="Images/Untitled-3.png"alt="untitled-3" /></li>
+        <li><img src="Images/pinky.png" alt="pinky"/></li>
+        <li><img src="Images/banner.png"alt="banner" /></li>
+      </ul>
+      <div class="content-banner-div"> <img id="images" src="Images/content-banner.png" alt="content banner" />
+        <ul class="picss">
+          <li><img src="Images/tips3.png" alt="tips3"/></li>
+          <li><img src="Images/tips1.png" alt="tips1"/></li>
+          <li><img src="Images/content-banner.png"alt="content banner1" /></li>
+          <li><img src="Images/tips2.png" alt="tips2"/></li>
+        </ul>
+      </div>
+      <div class="right-slider" id="right"> <img id="one" src="Images/right.png" alt="right"/> <img id="two" src="Images/rightt.png"alt="rightt"/> </div>
+    </div>
+    <div class="body-mid-div">
+      <div class="mid-left-wrapper">
+        <div class="mid-left-left-wrapper"> <img src="Images/pic1.png" alt="pic1"/> </div>
+        <div class="mid-left-right-wrapper">
+          <h3 class="heading1">Tips</h3>
+          <p class="paragraph1"> Lorem ipsum dolor sit amet lires consectetur adipisicing elit. </p>
         </div>
-        	<div class="body-div-wrapper">
-            	<div class="body-first-div">
-                <img id="image" src="Images/banner.png"  alt="image-banner"/>
-                <ul class="pics">
-                	<li><img src="Images/bb.png" alt="bb" /></li>
-                    <li><img src="Images/aa.png" alt="aa" /></li>
-                    <li><img src="Images/thered.png" alt="thered" /></li>
-                    <li><img src="Images/ddd.png" alt="ddd"/></li>
-                    <li><img src="Images/Untitled-1.png" alt="untitled-1"/></li>
-                    <li><img src="Images/Untitled-2.png" alt="untitled-2"/></li>
-                    <li><img src="Images/Untitled-3.png"alt="untitled-3" /></li>
-                    <li><img src="Images/pinky.png" alt="pinky"/></li>
-                    <li><img src="Images/banner.png"alt="banner" /></li>
-                    
-                 </ul>
-                	<div class="content-banner-div">
-                	<img id="images" src="Images/content-banner.png" alt="content banner" />
-                    	<ul class="picss">
-                        	<li><img src="Images/tips3.png" alt="tips3"/></li>
-                        	<li><img src="Images/tips1.png" alt="tips1"/></li>
-                            <li><img src="Images/content-banner.png"alt="content banner1" /></li>
-                            <li><img src="Images/tips2.png" alt="tips2"/></li>                            
-                            
-                       </ul>           
-                	</div>
-                    <div class="right-slider" id="right">
-                    	<img id="one" src="Images/right.png" alt="right"/>
-                        <img id="two" src="Images/rightt.png"alt="rightt"/>
-                              
-                    </div>
-                </div>
-                <div class="body-mid-div">
-                	
-                	<div class="mid-left-wrapper">
-                    	<div class="mid-left-left-wrapper">
-                        	<img src="Images/pic1.png" alt="pic1"/>
-                        </div>
-                        <div class="mid-left-right-wrapper">
-                        	<h3 class="heading1">Tips</h3>
-                            <p class="paragraph1">
-                            	Lorem ipsum dolor sit amet lires consectetur adipisicing elit.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mid-center-wrapper">
-                    	<div class="mid-center-left-wrapper">
-                        	<img src="Images/pic2.png" alt="pic2"/>
-                        </div>
-                        <div class="mid-center-right-wrapper">
-                        	<h3 class="heading1">Happy Gardener</h3>
-                            <p class="paragraph1">
-                            	Maecenas eget lorem et tortor malesuada dapibus vel.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mid-right-wrapper">
-                    	<div class="mid-right-left-wrapper">
-                        	<img src="Images/pic3.png" alt="pic3"/>
-                        </div>
-                        <div class="mid-right-right-wrapper">
-                        	<h3 class="heading1">Planting</h3>
-                            <p class="paragraph1">
-                            	Duis aute irure dolor n reprehenderit.
-                            </p>
-                        </div>
-                    	
-                    </div>
-					
-                </div>
-				<div class="body-final-div">
-                	<div class="body-final-top-wrapper">
-                    <a href="#">FEATURED GARDENS</a>
-                    </div>
-					<div class="body-final-middle-wrapper">
-                    	<div class="final-middle-left-wrapper">
-                        	<div class="middle-left-top-wrapper">
-                            <img id="thumbnail-1" onclick="thumbNails1()" src="Images/pic4.png"alt="pic4" />
-                            	<ul class="pics1">
-                                	<li><img src="Images/pic5.png" alt="pic5"/></li>
-                                	<li><img src="Images/pic6.png" alt="pic6"/></li>
-                                	<li><img src="Images/pic7.png" alt="pic7"/></li>
-                                    <li><img src="Images/pic4.png" alt="pic44"/></li>
-                                </ul>
-                            </div>
-                            <div class="middle-left-bottom-wrapper">
-                            	<h3 class="heading2">JULIET'S GARDEN</h3>
-                      <p class="paragraph2">Lorem ipsum dolor sit amet aaas, consectetur adipiscing elit. Sed luctus nisi...</p>
-                            </div>
-                        </div>
-                        <div class="final-middle-mid1-wrapper">
-                        	<div class="middle-mid1-top-wrapper">
-                            <img id="thumbnail-2" onclick="thumbNails2()"  src="Images/pic5.png" alt="pic55"/>
-                            	<ul class="pics2">
-                            		<li><img src="Images/pic6.png" alt="pic66"/></li>
-                                    <li><img src="Images/pic7.png" alt="pic77"/></li>
-                                    <li><img src="Images/pic4.png" alt="pic444"/></li>
-                                    <li><img src="Images/pic5.png" alt="pic5555"/></li>
-                                  </ul>
-                                    
-                            </div>
-                            <div class="middle-mid1-bottom-wrapper">
-                            	<h3 class="heading2">JOANNE'S GARDEN</h3>
-                              <p class="paragraph2">Etiam sed auctor turpis. Maecenas orci purus, ultrices eget rhoncus in...</p>
-                            </div>
-                        </div>
-                        <div class="final-middle-mid2-wrapper">
-                        	<div class="middle-mid2-top-wrapper">
-                            <img id="thumbnail-3" onclick="thumbNails3()" src="Images/pic6.png" alt="pic666"/>
-                            	<ul class="pics3">
-                                	<li><img src="Images/pic4.png" alt="pic4444"/></li>
-                                    <li><img src="Images/pic5.png" alt="pic55"/></li>
-                                    <li><img src="Images/pic7.png" alt="pic777"/></li>
-                                    <li><img src="Images/pic6.png" alt="pic666"/></li>
-                                    </ul>
-                            </div>
-                            <div class="middle-mid2-bottom-wrapper">
-                            	<h3 class="heading2">JETTKA'S GARDEN</h3>
-                           <p class="paragraph2">Phasellus eleifend fringilla gravida. Etiam ultrices convallis sodales...</p>
-                            </div>
-                        </div>
-                        <div class="final-middle-right-wrapper">
-                        	<div class="middle-right-top-wrapper">
-                             <img id="thumbnail-4" onclick="thumbNails4()" src="Images/pic7.png"alt="pic7777" />
-                            	<ul class="pics4">
-                                	<li><img src="Images/pic5.png" alt="pic5555"/></li>
-                                    <li><img src="Images/pic4.png" alt="pic04"/></li>
-                                    <li><img src="Images/pic6.png" alt="pic666"/></li>
-                                    <li><img src="Images/pic7.png" alt="pic777"/></li>
-                                    </ul>
-                            </div>
-                            <div class="middle-right-bottom-wrapper">
-                            	<h3 class="heading2">JIA'S GARDEN</h3>
-                                <p class="paragraph2">Cras nec velit nec turpis aliquet aliquet id imperdiet libero...</p>
-                            </div>
-                        </div>
-						
-					</div>	
-					<div class="body-final-bottom-wrapper">
-                    	<div class="final-bottom-left-wrapper">
-                             <embed width="300" height="229" src="http://www.youtube.com/v/fZw0ow9RZRo" type="application/x-shockwave-flash">
-                        </div>
-                        <div class="final-bottom-right-wrapper">
-                        	<div class="bottom-right-top-wrapper">
-                            <a href="#">TIPS OF THE WEEK</a>
-                            </div>
-                            <div class="bottom-right-bottom-wrapper">
-                   			 <ol>
-                      			<li>Aenean nulla purus nullam dapibus erat lobortis est molestie consectetur adipiscing elit.</li><br />
-                      			<li>Etiam sed auctor turpis.Maecenas orci purus , ultrices eget rhoncus in, vestibulum a justo.Nunc in risus erat.</li><br />
-                     			<li>Duis pellentesque consequat tincidunt. Nam elementum interdum gravida. Morbi risus velit molestie.</li></br />
-                  			</ol>
-                            </div>
-                        </div>
-					</div>
-                </div>           
-            </div>    
-    	</div>
-		<div class="footer-div">
-			<div class="footer-inside-top-wrapper">
-            	<div class="footer-inside-top-left-wrapper">
-                		<div class="map-wrapper">
-							<div id="map-div">						
-							</div>
-								<div class="search-div">            
-            								<form id="form" name="frm" action="#" >
-                							<div class="input-text-wrapper">
-                								<input type="text" value="Enter the location"id="address" />
-                   							 </div>
-                   							 <div class="search-btn-wrapper">
-                   							 <input type="button" value="Search" onclick="calcRoute()"/>
-                   							 </div>
-              								</form>
-                                </div>   
-								<div class="new-map">
-									<input type="button" value="Weather Map" onclick="newMap()" />
-								</div>
-									 </div>							
-								</div>     				 
-                <div class="footer-inside-top-right-wrapper">
-                	<h3 class="heading3">CONNECT</h3>
-                   <ul class="paragraph3">
-				<li>
-					<a href="https://gmail.com" id ="first" target="_blank">
-                	<img id="firstt" src="Images/ff.png" alt="ff"/>
-                	<img id="second" src="Images/fff.png"alt="fff"/>
-                	Email us</a></li><br />
-     			<li><a href="https://www.facebook.com/pages/Gardening/105975426100728" target="_blank">
-                <img id="third" src="Images/ee.png" alt="ee"/>
-                <img id="fourth" src="Images/eee.png" alt="eee"/>
-                Facebook</a></li><br />
-                <li><a href="https://twitter.com/" target="_blank">
-                <img id="fifth" src="Images/tt.png" alt="tt"/>
-                <img id="sixth" src="Images/ttt.png" alt="ttt"/>
-                Twitter</a></li><br />
-                <li><a href="https://plus.google.com/u/0/101228029896738185359" target="_blank"><img id="seventh" src="Images/gg.png" alt="gg"/><img id="eighth" src="Images/ggg.png" alt="ggg"/>Google+</a></li>
-               </ul>
-                </div>
+      </div>
+      <div class="mid-center-wrapper">
+        <div class="mid-center-left-wrapper"> <img src="Images/pic2.png" alt="pic2"/> </div>
+        <div class="mid-center-right-wrapper">
+          <h3 class="heading1">Happy Gardener</h3>
+          <p class="paragraph1"> Maecenas eget lorem et tortor malesuada dapibus vel. </p>
+        </div>
+      </div>
+      <div class="mid-right-wrapper">
+        <div class="mid-right-left-wrapper"> <img src="Images/pic3.png" alt="pic3"/> </div>
+        <div class="mid-right-right-wrapper">
+          <h3 class="heading1">Planting</h3>
+          <p class="paragraph1"> Duis aute irure dolor n reprehenderit. </p>
+        </div>
+      </div>
+    </div>
+    <div class="body-final-div">
+      <div class="body-final-top-wrapper"> <a href="#">FEATURED GARDENS</a> </div>
+      <div class="body-final-middle-wrapper">
+        <div class="final-middle-left-wrapper">
+          <div class="middle-left-top-wrapper"> <img id="thumbnail-1" onclick="thumbNails1()" src="Images/pic4.png"alt="pic4" />
+            <ul class="pics1">
+              <li><img src="Images/pic5.png" alt="pic5"/></li>
+              <li><img src="Images/pic6.png" alt="pic6"/></li>
+              <li><img src="Images/pic7.png" alt="pic7"/></li>
+              <li><img src="Images/pic4.png" alt="pic44"/></li>
+            </ul>
+          </div>
+          <div class="middle-left-bottom-wrapper">
+            <h3 class="heading2">JULIET'S GARDEN</h3>
+            <p class="paragraph2">Lorem ipsum dolor sit amet aaas, consectetur adipiscing elit. Sed luctus nisi...</p>
+          </div>
+        </div>
+        <div class="final-middle-mid1-wrapper">
+          <div class="middle-mid1-top-wrapper"> <img id="thumbnail-2" onclick="thumbNails2()"  src="Images/pic5.png" alt="pic55"/>
+            <ul class="pics2">
+              <li><img src="Images/pic6.png" alt="pic66"/></li>
+              <li><img src="Images/pic7.png" alt="pic77"/></li>
+              <li><img src="Images/pic4.png" alt="pic444"/></li>
+              <li><img src="Images/pic5.png" alt="pic5555"/></li>
+            </ul>
+          </div>
+          <div class="middle-mid1-bottom-wrapper">
+            <h3 class="heading2">JOANNE'S GARDEN</h3>
+            <p class="paragraph2">Etiam sed auctor turpis. Maecenas orci purus, ultrices eget rhoncus in...</p>
+          </div>
+        </div>
+        <div class="final-middle-mid2-wrapper">
+          <div class="middle-mid2-top-wrapper"> <img id="thumbnail-3" onclick="thumbNails3()" src="Images/pic6.png" alt="pic666"/>
+            <ul class="pics3">
+              <li><img src="Images/pic4.png" alt="pic4444"/></li>
+              <li><img src="Images/pic5.png" alt="pic55"/></li>
+              <li><img src="Images/pic7.png" alt="pic777"/></li>
+              <li><img src="Images/pic6.png" alt="pic666"/></li>
+            </ul>
+          </div>
+          <div class="middle-mid2-bottom-wrapper">
+            <h3 class="heading2">JETTKA'S GARDEN</h3>
+            <p class="paragraph2">Phasellus eleifend fringilla gravida. Etiam ultrices convallis sodales...</p>
+          </div>
+        </div>
+        <div class="final-middle-right-wrapper">
+          <div class="middle-right-top-wrapper"> <img id="thumbnail-4" onclick="thumbNails4()" src="Images/pic7.png"alt="pic7777" />
+            <ul class="pics4">
+              <li><img src="Images/pic5.png" alt="pic5555"/></li>
+              <li><img src="Images/pic4.png" alt="pic04"/></li>
+              <li><img src="Images/pic6.png" alt="pic666"/></li>
+              <li><img src="Images/pic7.png" alt="pic777"/></li>
+            </ul>
+          </div>
+          <div class="middle-right-bottom-wrapper">
+            <h3 class="heading2">JIA'S GARDEN</h3>
+            <p class="paragraph2">Cras nec velit nec turpis aliquet aliquet id imperdiet libero...</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-final-bottom-wrapper">
+        <div class="final-bottom-left-wrapper">
+          <embed width="300" height="229" src="http://www.youtube.com/v/fZw0ow9RZRo" type="application/x-shockwave-flash"> 
+        </div>
+        <div class="final-bottom-right-wrapper">
+          <div class="bottom-right-top-wrapper"> <a href="#">TIPS OF THE WEEK</a> </div>
+          <div class="bottom-right-bottom-wrapper">
+            <ol>
+              <li>Aenean nulla purus nullam dapibus erat lobortis est molestie consectetur adipiscing elit.</li>
+              <br />
+              <li>Etiam sed auctor turpis.Maecenas orci purus , ultrices eget rhoncus in, vestibulum a justo.Nunc in risus erat.</li>
+              <br />
+              <li>Duis pellentesque consequat tincidunt. Nam elementum interdum gravida. Morbi risus velit molestie.</li>
+              </br />
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-div">
+  <div class="footer-inside-top-wrapper">
+    <div class="footer-inside-top-left-wrapper">
+      <div class="map-wrapper">
+        <div id="map-div"> </div>
+        <div class="search-div">
+          <form id="form" name="frm" action="#" >
+            <div class="input-text-wrapper">
+              <input type="text" value="Enter the location"id="address" />
             </div>
-            <div class="footer-inside-bottom-wrapper">FLOWERS in GARDEN&copy 2023 | All Rights Reserved
-            </div>				
-		</div>
+            <div class="search-btn-wrapper">
+              <input type="button" value="Search" onclick="calcRoute()"/>
+            </div>
+          </form>
+        </div>
+        <div class="new-map">
+          <input type="button" value="Weather Map" onclick="newMap()" />
+        </div>
+      </div>
+    </div>
+    <div class="footer-inside-top-right-wrapper">
+      <h3 class="heading3">CONNECT</h3>
+      <ul class="paragraph3">
+        <li> <a href="https://gmail.com" id ="first" target="_blank"> <img id="firstt" src="Images/ff.png" alt="ff"/> <img id="second" src="Images/fff.png"alt="fff"/> Email us</a></li>
+        <br />
+        <li><a href="https://www.facebook.com/pages/Gardening/105975426100728" target="_blank"> <img id="third" src="Images/ee.png" alt="ee"/> <img id="fourth" src="Images/eee.png" alt="eee"/> Facebook</a></li>
+        <br />
+        <li><a href="https://twitter.com/" target="_blank"> <img id="fifth" src="Images/tt.png" alt="tt"/> <img id="sixth" src="Images/ttt.png" alt="ttt"/> Twitter</a></li>
+        <br />
+        <li><a href="https://plus.google.com/u/0/101228029896738185359" target="_blank"><img id="seventh" src="Images/gg.png" alt="gg"/><img id="eighth" src="Images/ggg.png" alt="ggg"/>Google+</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-inside-bottom-wrapper">FLOWERS in GARDEN&copy 2023 | All Rights Reserved </div>
+</div>
 <script type="text/javascript" src="Banner.js">
-</script>    
+</script> 
 <script type="text/javascript" src="Map.js">
-</script>    
+</script> 
 <script type="text/javascript" src="Thumbnails.js">
-</script>
+</script> 
 <script type="text/javascript" src="weather.js">
 </script>
 </body>

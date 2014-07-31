@@ -15,7 +15,7 @@
 .inside-bottom-wrapper{float:right;}
 .weather-div{position: absolute;top:47px;left:676px;color:#60834c;font-weight: lighter;}
 .weather-wrapper-div{position: absolute;top: 65px;left: 675px;}
-.weather-result-wrapper{position:absolute;top:92px;left:680px;color:#60834c;}
+.weather-result-wrapper{position:absolute;top:92px;left:675px;color:#60834c;}
 #searchCity{padding:1px;color:#efaf63;}
 #btn{background:#529826;color:white;}
 
@@ -46,7 +46,7 @@
 .body-final-middle-wrapper{overflow:hidden;border-bottom:1px solid #d7d6cd;padding-bottom:24px;}
 
 .final-middle-left-wrapper{float:left;width:201px;margin-right:9px;}
-	.middle-left-top-wrapper{width:200px;border-left:1px solid grey;}
+.middle-left-top-wrapper{width:200px;border-left:1px solid grey;}
 .final-middle-mid1-wrapper{float:left;width:200px;margin-right:10px;margin-left:10px;}
 .final-middle-mid2-wrapper{float:left;width:200px;margin-right:10px;margin-left:10px;}
 .final-middle-right-wrapper{float:left;width:200px;margin-left:10px;}
