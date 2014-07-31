@@ -9,7 +9,7 @@ function openWeatherApp(){
 		var jsonObject = JSON.parse(req.responseText);
 		var celcius = jsonObject.main.temp - 273.15;
    		 document.getElementById('weatherResult').innerHTML = "" + jsonObject.name
-				+","+jsonObject.sys.country +"\t" + jsonObject.weather[0].description +"\t"+parseInt(celcius) +"C";
+				+","+jsonObject.sys.country +"\t" + jsonObject.weather[0].description +"\t"+parseInt(celcius) +"°C";
 	}};
 	req.open("GET", url,true);
 	req.send(null);

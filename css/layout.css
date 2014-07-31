@@ -15,7 +15,7 @@
 .inside-bottom-wrapper{float:right;}
 .weather-div{position: absolute;top:47px;left:676px;color:#60834c;font-weight: lighter;}
 .weather-wrapper-div{position: absolute;top: 65px;left: 675px;}
-.weather-result-wrapper{position:absolute;top:92px;left:680px;}
+.weather-result-wrapper{position:absolute;top:92px;left:680px;color:#60834c;}
 #searchCity{padding:1px;color:#efaf63;}
 #btn{background:#529826;color:white;}
 
