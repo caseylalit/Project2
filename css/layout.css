@@ -13,6 +13,11 @@
 
 .inside-top-wrapper{width:313px;}
 .inside-bottom-wrapper{float:right;}
+.weather-div{position: absolute;top:47px;left:676px;color:#60834c;font-weight: lighter;}
+.weather-wrapper-div{position: absolute;top: 65px;left: 675px;}
+.weather-result-wrapper{position:absolute;top:92px;left:680px;}
+#searchCity{padding:1px;color:#efaf63;}
+#btn{background:#529826;color:white;}
 
 .menu-bar-wrapper{width:100%;overflow:hidden;background:#4b4b4b;padding-left:5px;margin-bottom:1px;}
 

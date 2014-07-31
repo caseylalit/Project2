@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
+<title>Flower Garden</title>
 <link rel="stylesheet" type="text/css" href="css/reset.css" />
 <link rel="stylesheet" type="text/css" href="css/layout.css" />
 <link rel="stylesheet" type="text/css" href="css/navigation.css" />
@@ -24,9 +24,18 @@
                     </div>
               	</div>
             	<div class="inside-right-wrapper">
-                <a href="#"><img src="Images/logo.png" /></a>
+                <a href="#"><img src="Images/logo.png" alt="logo" /></a>
             	</div>
+                
         	</div>
+            <div class="weather-div">WEATHER            
+            </div>            
+            <div id="weatherDiv" class="weather-wrapper-div">
+			<input id="searchCity" name="search_str" value="kathmandu" />
+            <button id='btn' type="submit" onclick="openWeatherApp()">Search</button>
+            </div>
+            <div id="weatherResult" class="weather-result-wrapper">            
+            </div>
             	<div class="menu-bar-wrapper">
                 	<ul>
                     	<li><a href="#">Home</a></li>
@@ -42,30 +51,30 @@
             	<div class="body-first-div">
                 <img id="image" src="Images/banner.png"  alt="image-banner"/>
                 <ul class="pics">
-                	<li><img src="Images/bb.png" /></li>
-                    <li><img src="Images/aa.png" /></li>
-                    <li><img src="Images/thered.png" /></li>
-                    <li><img src="Images/ddd.png" /></li>
-                    <li><img src="Images/Untitled-1.png" /></li>
-                    <li><img src="Images/Untitled-2.png" /></li>
-                    <li><img src="Images/Untitled-3.png" /></li>
-                    <li><img src="Images/pinky.png" /></li>
-                    <li><img src="Images/banner.png" /></li>
+                	<li><img src="Images/bb.png" alt="bb" /></li>
+                    <li><img src="Images/aa.png" alt="aa" /></li>
+                    <li><img src="Images/thered.png" alt="thered" /></li>
+                    <li><img src="Images/ddd.png" alt="ddd"/></li>
+                    <li><img src="Images/Untitled-1.png" alt="untitled-1"/></li>
+                    <li><img src="Images/Untitled-2.png" alt="untitled-2"/></li>
+                    <li><img src="Images/Untitled-3.png"alt="untitled-3" /></li>
+                    <li><img src="Images/pinky.png" alt="pinky"/></li>
+                    <li><img src="Images/banner.png"alt="banner" /></li>
                     
                  </ul>
                 	<div class="content-banner-div">
-                	<img id="images" src="Images/content-banner.png" />
+                	<img id="images" src="Images/content-banner.png" alt="content banner" />
                     	<ul class="picss">
-                        	<li><img src="Images/tips3.png" /></li>
-                        	<li><img src="Images/tips1.png" /></li>
-                            <li><img src="Images/content-banner.png" /></li>
-                            <li><img src="Images/tips2.png" /></li>                            
+                        	<li><img src="Images/tips3.png" alt="tips3"/></li>
+                        	<li><img src="Images/tips1.png" alt="tips1"/></li>
+                            <li><img src="Images/content-banner.png"alt="content banner1" /></li>
+                            <li><img src="Images/tips2.png" alt="tips2"/></li>                            
                             
                        </ul>           
                 	</div>
                     <div class="right-slider" id="right">
-                    	<img id="one" src="Images/right.png"/>
-                        <img id="two" src="Images/rightt.png"/>
+                    	<img id="one" src="Images/right.png" alt="right"/>
+                        <img id="two" src="Images/rightt.png"alt="rightt"/>
                               
                     </div>
                 </div>
@@ -73,7 +82,7 @@
                 	
                 	<div class="mid-left-wrapper">
                     	<div class="mid-left-left-wrapper">
-                        	<img src="Images/pic1.png" />
+                        	<img src="Images/pic1.png" alt="pic1"/>
                         </div>
                         <div class="mid-left-right-wrapper">
                         	<h3 class="heading1">Tips</h3>
@@ -84,7 +93,7 @@
                     </div>
                     <div class="mid-center-wrapper">
                     	<div class="mid-center-left-wrapper">
-                        	<img src="Images/pic2.png" />
+                        	<img src="Images/pic2.png" alt="pic2"/>
                         </div>
                         <div class="mid-center-right-wrapper">
                         	<h3 class="heading1">Happy Gardener</h3>
@@ -95,7 +104,7 @@
                     </div>
                     <div class="mid-right-wrapper">
                     	<div class="mid-right-left-wrapper">
-                        	<img src="Images/pic3.png" />
+                        	<img src="Images/pic3.png" alt="pic3"/>
                         </div>
                         <div class="mid-right-right-wrapper">
                         	<h3 class="heading1">Planting</h3>
@@ -114,12 +123,12 @@
 					<div class="body-final-middle-wrapper">
                     	<div class="final-middle-left-wrapper">
                         	<div class="middle-left-top-wrapper">
-                            <a href="#"><img id="thumbnail-1" onmouseover="thumbNails1()" src="Images/pic4.png" /></a>
+                            <img id="thumbnail-1" onclick="thumbNails1()" src="Images/pic4.png"alt="pic4" />
                             	<ul class="pics1">
-                                	<li><img src="Images/pic5.png" /></li>
-                                	<li><img src="Images/pic6.png" /></li>
-                                	<li><img src="Images/pic7.png" /></li>
-                                    <li><img src="Images/pic4.png" /></li>
+                                	<li><img src="Images/pic5.png" alt="pic5"/></li>
+                                	<li><img src="Images/pic6.png" alt="pic6"/></li>
+                                	<li><img src="Images/pic7.png" alt="pic7"/></li>
+                                    <li><img src="Images/pic4.png" alt="pic44"/></li>
                                 </ul>
                             </div>
                             <div class="middle-left-bottom-wrapper">
@@ -129,12 +138,12 @@
                         </div>
                         <div class="final-middle-mid1-wrapper">
                         	<div class="middle-mid1-top-wrapper">
-                            <a href="#"><img id="thumbnail-2" onclick="thumbNails2()"  src="Images/pic5.png" /></a>
+                            <img id="thumbnail-2" onclick="thumbNails2()"  src="Images/pic5.png" alt="pic55"/>
                             	<ul class="pics2">
-                            		<li><img src="Images/pic6.png" /></li>
-                                    <li><img src="Images/pic7.png" /></li>
-                                    <li><img src="Images/pic4.png" /></li>
-                                    <li><img src="Images/pic5.png" /></li>
+                            		<li><img src="Images/pic6.png" alt="pic66"/></li>
+                                    <li><img src="Images/pic7.png" alt="pic77"/></li>
+                                    <li><img src="Images/pic4.png" alt="pic444"/></li>
+                                    <li><img src="Images/pic5.png" alt="pic5555"/></li>
                                   </ul>
                                     
                             </div>
@@ -145,12 +154,12 @@
                         </div>
                         <div class="final-middle-mid2-wrapper">
                         	<div class="middle-mid2-top-wrapper">
-                            <a href="#"><img id="thumbnail-3" onclick="thumbNails3()" src="Images/pic6.png" /></a>
+                            <img id="thumbnail-3" onclick="thumbNails3()" src="Images/pic6.png" alt="pic666"/>
                             	<ul class="pics3">
-                                	<li><img src="Images/pic4.png" /></li>
-                                    <li><img src="Images/pic5.png" /></li>
-                                    <li><img src="Images/pic7.png" /></li>
-                                    <li><img src="Images/pic6.png" /></li>
+                                	<li><img src="Images/pic4.png" alt="pic4444"/></li>
+                                    <li><img src="Images/pic5.png" alt="pic55"/></li>
+                                    <li><img src="Images/pic7.png" alt="pic777"/></li>
+                                    <li><img src="Images/pic6.png" alt="pic666"/></li>
                                     </ul>
                             </div>
                             <div class="middle-mid2-bottom-wrapper">
@@ -160,12 +169,12 @@
                         </div>
                         <div class="final-middle-right-wrapper">
                         	<div class="middle-right-top-wrapper">
-                             <a href="#"><img id="thumbnail-4" onclick="thumbNails4()" src="Images/pic7.png" /></a>
+                             <img id="thumbnail-4" onclick="thumbNails4()" src="Images/pic7.png"alt="pic7777" />
                             	<ul class="pics4">
-                                	<li><img src="Images/pic5.png" /></li>
-                                    <li><img src="Images/pic4.png" /></li>
-                                    <li><img src="Images/pic6.png" /></li>
-                                    <li><img src="Images/pic7.png" /></li>
+                                	<li><img src="Images/pic5.png" alt="pic5555"/></li>
+                                    <li><img src="Images/pic4.png" alt="pic04"/></li>
+                                    <li><img src="Images/pic6.png" alt="pic666"/></li>
+                                    <li><img src="Images/pic7.png" alt="pic777"/></li>
                                     </ul>
                             </div>
                             <div class="middle-right-bottom-wrapper">
@@ -177,7 +186,7 @@
 					</div>	
 					<div class="body-final-bottom-wrapper">
                     	<div class="final-bottom-left-wrapper">
-                        <img src="Images/pic8.png" />
+                             <embed width="300" height="229" src="http://www.youtube.com/v/fZw0ow9RZRo" type="application/x-shockwave-flash">
                         </div>
                         <div class="final-bottom-right-wrapper">
                         	<div class="bottom-right-top-wrapper">
@@ -185,9 +194,9 @@
                             </div>
                             <div class="bottom-right-bottom-wrapper">
                    			 <ol>
-                      			<li>Aenean nulla purus nullam dapibus erat lobortis est molestie consectetur adipiscing elit.</li></br>
-                      			<li>Etiam sed auctor turpis.Maecenas orci purus , ultrices eget rhoncus in, vestibulum a justo.Nunc in risus erat.</li></br>
-                     			<li>Duis pellentesque consequat tincidunt. Nam elementum interdum gravida. Morbi risus velit molestie.</li></br>
+                      			<li>Aenean nulla purus nullam dapibus erat lobortis est molestie consectetur adipiscing elit.</li><br />
+                      			<li>Etiam sed auctor turpis.Maecenas orci purus , ultrices eget rhoncus in, vestibulum a justo.Nunc in risus erat.</li><br />
+                     			<li>Duis pellentesque consequat tincidunt. Nam elementum interdum gravida. Morbi risus velit molestie.</li></br />
                   			</ol>
                             </div>
                         </div>
@@ -202,7 +211,7 @@
 							<div id="map-div">						
 							</div>
 								<div class="search-div">            
-            								<form id="form" name="frm" >
+            								<form id="form" name="frm" action="#" >
                 							<div class="input-text-wrapper">
                 								<input type="text" value="Enter the location"id="address" />
                    							 </div>
@@ -212,7 +221,7 @@
               								</form>
                                 </div>   
 								<div class="new-map">
-									<input type="button" value="WeatherMap" onclick="newMap()" />
+									<input type="button" value="Weather Map" onclick="newMap()" />
 								</div>
 									 </div>							
 								</div>     				 
@@ -221,22 +230,19 @@
                    <ul class="paragraph3">
 				<li>
 					<a href="https://gmail.com" id ="first" target="_blank">
-                	<img id="first" src="Images/ff.png" />
-                	<img id="second" src="Images/fff.png"/>
+                	<img id="firstt" src="Images/ff.png" alt="ff"/>
+                	<img id="second" src="Images/fff.png"alt="fff"/>
                 	Email us</a></li><br />
      			<li><a href="https://www.facebook.com/pages/Gardening/105975426100728" target="_blank">
-                <img id="third" src="Images/ee.png" />
-                <img id="fourth" src="Images/eee.png" />
+                <img id="third" src="Images/ee.png" alt="ee"/>
+                <img id="fourth" src="Images/eee.png" alt="eee"/>
                 Facebook</a></li><br />
                 <li><a href="https://twitter.com/" target="_blank">
-                <img id="fifth" src="Images/tt.png" />
-                <img id="sixth" src="Images/ttt.png" />
+                <img id="fifth" src="Images/tt.png" alt="tt"/>
+                <img id="sixth" src="Images/ttt.png" alt="ttt"/>
                 Twitter</a></li><br />
-                <li><a href="https://plus.google.com/u/0/101228029896738185359" target="_blank">
-                <img id="seventh" src="Images/gg.png" />
-                <img id="eighth" src="Images/ggg.png" />
-                Google+</a></li>
-                   </ul>
+                <li><a href="https://plus.google.com/u/0/101228029896738185359" target="_blank"><img id="seventh" src="Images/gg.png" alt="gg"/><img id="eighth" src="Images/ggg.png" alt="ggg"/>Google+</a></li>
+               </ul>
                 </div>
             </div>
             <div class="footer-inside-bottom-wrapper">FLOWERS in GARDEN&copy 2023 | All Rights Reserved
@@ -247,6 +253,8 @@
 <script type="text/javascript" src="Map.js">
 </script>    
 <script type="text/javascript" src="Thumbnails.js">
+</script>
+<script type="text/javascript" src="weather.js">
 </script>
 </body>
 </html>

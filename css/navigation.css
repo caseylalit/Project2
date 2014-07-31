@@ -30,9 +30,9 @@
 	 color:#08ef07;
 	}
 	
-.footer-inside-top-right-wrapper a img#first {display:inline;}
+.footer-inside-top-right-wrapper a img#firstt {display:inline;}
 .footer-inside-top-right-wrapper a img#second {display:none;}
-.footer-inside-top-right-wrapper a:hover img#first {display:none;}
+.footer-inside-top-right-wrapper a:hover img#firstt {display:none;}
 .footer-inside-top-right-wrapper a:hover img#second {display:inline;}
 
 .footer-inside-top-right-wrapper a img#third {display:inline;}
