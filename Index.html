@@ -7,6 +7,8 @@
 <link rel="stylesheet" type="text/css" href="css/layout.css" />
 <link rel="stylesheet" type="text/css" href="css/navigation.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/Map.css" />
+<script src="https://maps.googleapis.com/maps/api/js?AIzaSyARz2aTtvH0T65-6EI0-v0vri2AIULt2v4"></script>
 </head>
 <body>
 	
@@ -51,7 +53,7 @@
                 	<img src="Images/content-banner.png" />
                 	</div>
                     <div class="right-slider" id="right">
-                    	<img src="Images/right.png" />
+                    	<img src="Images/right.png"/>
                     </div>
                 </div>
                 <div class="body-mid-div">
@@ -157,38 +159,58 @@
 		<div class="footer-div">
 			<div class="footer-inside-top-wrapper">
             	<div class="footer-inside-top-left-wrapper">
-                	<h3 class="heading3">PLACE HOLDER</h3>
-                    <p class="paragraph3">this is just a place holder<br />
-                    this is just a place holder<br />
-                    this is just a place holder<br /></p>
-                </div>
-                <div class="footer-inside-top-mid1-wrapper">
-                	<h3 class="heading3">PLACE HOLDER</h3>
-                    <p class="paragraph3">this is just a place holder<br />
-                    this is just a place holder<br />
-                    this is just a place holder<br /></p>
-                </div>
-                <div class="footer-inside-top-mid2-wrapper">
-                	<h3 class="heading3">PLACE HOLDER</h3>
-                    <p class="paragraph3">this is just a place holder<br />
-                    this is just a place holder<br />
-                    this is just a place holder<br /></p>
-                </div>
+                		<div class="map-wrapper">
+							<div id="map-div">						
+							</div>
+								<div class="search-div">
+            
+            								<form id="form" name="frm" >
+                							<div class="input-text-wrapper">
+                								<input type="text" value="Enter the location"id="address" />
+                   							 </div>
+                   							 <div class="search-btn-wrapper">
+                   							 <input type="button" value="Search" onclick="calcRoute()"/>
+                   							 </div>
+              								</form>
+            
+           							 </div>
+           					
+									 </div>
+									 
+							
+								</div>            
+               	 
+				 
                 <div class="footer-inside-top-right-wrapper">
                 	<h3 class="heading3">CONNECT</h3>
-                   <ul>
-                   	<li class="paragraph3"><a href="https://gmail.com" target="_blank"><img src="Images/ff.png" />Email us</a></li><br />
-     <li class="paragraph3"><a href="https://www.facebook.com/pages/Gardening/105975426100728" target="_blank"><img src="Images/ee.png" />Facebook</a></li><br />
-                    <li class="paragraph3"><a href="https://twitter.com/" target="_blank"><img src="Images/tt.png" />Twitter</a></li><br />
-                    <li class="paragraph3"><a href="https://plus.google.com/u/0/101228029896738185359" target="_blank"><img src="Images/gg.png" />Google+</a></li><br />
+                   <ul class="paragraph3">
+				<li>
+					<a href="https://gmail.com" id ="first" target="_blank">
+                	<img id="first" src="Images/ff.png" />
+                	<img id="second" src="Images/fff.png"/>
+                	Email us</a></li><br />
+     			<li><a href="https://www.facebook.com/pages/Gardening/105975426100728" target="_blank">
+                <img id="third" src="Images/ee.png" />
+                <img id="fourth" src="Images/eee.png" />
+                Facebook</a></li><br />
+                <li><a href="https://twitter.com/" target="_blank">
+                <img id="fifth" src="Images/tt.png" />
+                <img id="sixth" src="Images/ttt.png" />
+                Twitter</a></li><br />
+                <li><a href="https://plus.google.com/u/0/101228029896738185359" target="_blank">
+                <img id="seventh" src="Images/gg.png" />
+                <img id="eighth" src="Images/ggg.png" />
+                Google+</a></li><br />
                    </ul>
                 </div>
             </div>
             <div class="footer-inside-bottom-wrapper">FLOWERS in GARDEN&copy 2023 | All Rights Reserved
             </div>
-			
+				
 		</div>
 <script type="text/javascript" src="Index.js">
+</script>    
+<script type="text/javascript" src="Map.js">
 </script>    
 </body>
 </html>

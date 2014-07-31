@@ -56,7 +56,5 @@
 .footer-inside-bottom-wrapper{background:#356618;padding-left:295px;padding-right:275px;padding-top:13px;padding-bottom:25px;width:330px;text-shadow:1px 1px 1px #8da181;}
 
 
-.footer-inside-top-left-wrapper{float:left;width:170px;padding-left:19px;padding-right:36px;}
-.footer-inside-top-mid1-wrapper{float:left;width:170px;padding-left:19px;padding-right:36px;}
-.footer-inside-top-mid2-wrapper{float:left;width:170px;padding-left:19px;padding-right:36px;}
-.footer-inside-top-right-wrapper{float:left;width:170px;height:215px;padding-left:19px;padding-right:36px;}
+.footer-inside-top-left-wrapper{float:left;width:675px;}
+.footer-inside-top-right-wrapper{float:left;width:170px;;padding-left:19px;padding-right:36px;}

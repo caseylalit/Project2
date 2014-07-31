@@ -26,6 +26,30 @@
 .footer-inside-top-right-wrapper a{text-decoration:none;color:#a4a8a1;}
 
 .footer-inside-top-right-wrapper a:hover{
-	 color:#356618;
-	background:url(../Images/icoon.png)  left no-repeat;
+	 color:#08ef07;
 	}
+	
+.footer-inside-top-right-wrapper a img#first {display:inline;}
+.footer-inside-top-right-wrapper a img#second {display:none;}
+.footer-inside-top-right-wrapper a:hover img#first {display:none;}
+.footer-inside-top-right-wrapper a:hover img#second {display:inline;}
+
+.footer-inside-top-right-wrapper a img#third {display:inline;}
+.footer-inside-top-right-wrapper a img#fourth {display:none;}
+.footer-inside-top-right-wrapper a:hover img#third {display:none;}
+.footer-inside-top-right-wrapper a:hover img#fourth {display:inline;}
+
+.footer-inside-top-right-wrapper a img#fifth {display:inline;}
+.footer-inside-top-right-wrapper a img#sixth {display:none;}
+.footer-inside-top-right-wrapper a:hover img#fifth {display:none;}
+.footer-inside-top-right-wrapper a:hover img#sixth {display:inline;}
+
+.footer-inside-top-right-wrapper a img#seventh {display:inline;}
+.footer-inside-top-right-wrapper a img#eighth {display:none;}
+.footer-inside-top-right-wrapper a:hover img#seventh {display:none;}
+.footer-inside-top-right-wrapper a:hover img#eighth {display:inline;}
+
+
+
+	
+	
